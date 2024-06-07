@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Cric Geek</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #e0f7fa;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background: #fff;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+            border-radius: 10px;
+            animation: fadeIn 1s ease-in-out;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        header {
+            background: #1a73e8; /* Blue color of Indian cricket jersey */
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+            border-radius: 10px 10px 0 0;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 28px;
+        }
+
+        .content, .team {
+            margin-top: 20px;
+        }
+
+        h2 {
+            color: #ff9933; /* Orange color of Indian flag */
+            margin-bottom: 15px;
+            animation: slideInLeft 1s ease-in-out;
+        }
+
+        @keyframes slideInLeft {
+            from { transform: translateX(-100%); opacity: 0; }
+            to { transform: translateX(0); opacity: 1; }
+        }
+
+        .team-member {
+            display: flex;
+            align-items: flex-start;
+            background: #f9f9f9;
+            padding: 15px;
+            margin-bottom: 15px;
+            border-left: 5px solid #1a73e8; /* Blue color of Indian cricket jersey */
+            border-radius: 5px;
+            animation: fadeInUp 1s ease-in-out;
+        }
+
+        @keyframes fadeInUp {
+            from { transform: translateY(20px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+
+        .team-member img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin-right: 15px;
+            border: 3px solid #1a73e8; /* Blue color of Indian cricket jersey */
+            transition: transform 0.3s ease;
+        }
+
+        .team-member img:hover {
+            transform: scale(1.2);
+        }
+
+        .team-info {
+            max-width: calc(100% - 130px);
+        }
+
+        .team-info h3 {
+            margin-top: 0;
+            color: #1a73e8; /* Blue color of Indian cricket jersey */
+        }
+
+        p {
+            margin: 0 0 10px;
+        }
+
+        strong {
+            color: #138808; /* Green color of Indian flag */
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 16px;
+            color: #fff;
+            background-color: #1a73e8;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn:hover {
+            background-color: #155ab7;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <!-- SVG Logo included here -->
+            <div class="logo">
+                <svg width="100" height="100" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="100" cy="100" r="95" fill="#1a73e8" stroke="#ff9933" stroke-width="10"/>
+                    <rect x="60" y="90" width="15" height="50" fill="#ff9933" transform="rotate(-45 70 115)" />
+                    <rect x="62" y="135" width="11" height="20" fill="#8d6e63" transform="rotate(-45 70 115)" />
+                    <circle cx="120" cy="65" r="12" fill="#d32f2f" />
+                    <line x1="112" y1="60" x2="128" y2="70" stroke="#ffffff" stroke-width="2"/>
+                    <line x1="112" y1="70" x2="128" y2="60" stroke="#ffffff" stroke-width="2"/>
+                    <path d="M65 120 Q85 100 100 120 Q115 100 135 120 L135 140 Q115 120 100 140 Q85 120 65 140 Z" fill="#ffffff" stroke="#1a73e8" stroke-width="2"/>
+                    <path d="M65 140 Q85 160 100 140 Q115 160 135 140" stroke="#1a73e8" stroke-width="2" fill="none"/>
+                    <path id="textPath" d="M 20,100 a 80,80 0 1,1 160,0 a 80,80 0 1,1 -160,0" fill="none" stroke="none"/>
+                    <text font-family="Arial, sans-serif" font-size="18" fill="#ffffff">
+                        <textPath href="#textPath" startOffset="50%" text-anchor="middle">CRIC GEEK</textPath>
+                    </text>
+                </svg>
+            </div>
+            <h1>About Us</h1>
+        </header>
+        <section class="content">
+            <p>Welcome to <strong>Cric Geek</strong>, a website that delves into the essence of cricket through statistical analysis and emotional expression. Our voice remains unbiased, yet it gravitates towards the rightful interpretations based on match-ups and statistics. Here, we offer both pre-match and post-match analyses to furnish you with a balanced blend of technical insights and practical comprehension of each cricket encounter.</p>
+            <p>Upon entering our website, you'll find yourself immersed in a distinct perspective of a match. We do not claim to be the definitive authorities on cricket analysis, but our passion for the sport drives us to continually learn and provide genuine insights within our expertise.</p>
+            <p>There's a wealth of knowledge to uncover in cricket, and we openly acknowledge that there are aspects we may not fully grasp. However, it's our fervor for the game that propels us to offer legitimate analysis within our boundaries.</p>
+            <p>Enjoy your crireading journey with us!</p>
+        </section>
+        <section class="team">
+            <h2>Behind the scenes at Cric Geek</h2>
+            <p>You'll find a team of dedicated individuals driven by their passion for cricket and fueled by a desire to share their insights with fellow enthusiasts. Meet our founders:</p>
+            <div class="team-member">
+                <img src="/Users/adityauppuluri/Desktop/ProjCricGeek/cricgeek/blog/templates/blog/images/PHOTO-2024-06-03-16-12-12.jpg" alt="Pradyumna Sriram">
+                <div class="team-info">
+                    <h3>Pradyumna Sriram</h3>
+                    <p>Currently pursuing engineering at VIT Chennai, Pradyumna possesses a unique blend of cricket knowledge, statistical prowess, and an unbridled love for the game. He's the driving force behind our analytical content, constantly striving to provide our audience with valuable insights and perspectives. While still on the journey of learning about cricket, his passion for the sport fuels his continuous growth and contribution to the platform.</p>
+                </div>
+            </div>
+            <div class="team-member">
+                <img src="/Users/adityauppuluri/Desktop/ProjCricGeek/cricgeek/blog/templates/blog/images/PHOTO-2024-06-03-16-12-11.jpg" alt="Abhiram.U">
+                <div class="team-info">
+                    <h3>Abhiram.U</h3>
+                    <p>Hailing from IIT Varanasi, Abhiram's affinity for cricket is matched only by his technical expertise in website management tailored specifically for cricket aficionados. He ensures that our platform operates seamlessly, delivering an optimal experience for users. Despite his vast knowledge, Abhiram remains humble, acknowledging that there's always more to learn about cricket, but his passion for the game remains unwavering, driving him to excel in his role.</p>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <a href="{% url 'blog-home' %}" class="btn">Back to Home</a>
+        </footer>
+    </div>
+</body>
+</html>
+

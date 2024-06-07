@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #e0f7fa;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+header {
+    background: #1a73e8; /* Blue color of Indian cricket jersey */
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    border-radius: 10px 10px 0 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 28px;
+}
+
+.content, .team {
+    margin-top: 20px;
+}
+
+h2 {
+    color: #ff9933; /* Orange color of Indian flag */
+    margin-bottom: 15px;
+    animation: slideInLeft 1s ease-in-out;
+}
+
+@keyframes slideInLeft {
+    from { transform: translateX(-100%); opacity: 0; }
+    to { transform: translateX(0); opacity: 1; }
+}
+
+.team-member {
+    display: flex;
+    align-items: flex-start;
+    background: #f9f9f9;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-left: 5px solid #1a73e8; /* Blue color of Indian cricket jersey */
+    border-radius: 5px;
+    animation: fadeInUp 1s ease-in-out;
+}
+
+@keyframes fadeInUp {
+    from { transform: translateY(20px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+}
+
+.team-member img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 15px;
+    border: 3px solid #1a73e8; /* Blue color of Indian cricket jersey */
+    transition: transform 0.3s ease;
+}
+
+.team-member img:hover {
+    transform: scale(1.2);
+}
+
+.team-info {
+    max-width: calc(100% - 130px);
+}
+
+.team-info h3 {
+    margin-top: 0;
+    color: #1a73e8; /* Blue color of Indian cricket jersey */
+}
+
+p {
+    margin: 0 0 10px;
+}
+
+strong {
+    color: #138808; /* Green color of Indian flag */
+}
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #1a73e8;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #155ab7;
+}
