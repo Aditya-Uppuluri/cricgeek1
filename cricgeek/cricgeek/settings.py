@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-!4l&s#!a1a-ypgk455jt(_ce9w4ya-h!94+a*r#8064mqv859d
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['cricgeek.pythonanywhere.com']
+ALLOWED_HOSTS = []
 
 
 # Application definition
@@ -145,6 +145,7 @@ CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
 
 STATIC_URL = '/static/'
+STATIC_ROOT = '/Users/adityauppuluri/Desktop/cricgeek1/cricgeek/blog/static'
 
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 MEDIA_URL = '/media/'
