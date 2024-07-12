@@ -6,7 +6,7 @@ Welcome to CricGeek, a comprehensive cricket blogging website designed to be the
 Project Overview
 CricGeek is built using the Django web framework, leveraging its powerful features to deliver a seamless and interactive user experience. The platform is hosted on PythonAnywhere, ensuring reliable performance and accessibility.
 
-Visit our live website at: cricgeek.pythonanywhere.com
+Visit our live website at: [cricgeek.pythonanywhere.com](cricgeek.pythonanywhere.com)
 
 Features:
 
